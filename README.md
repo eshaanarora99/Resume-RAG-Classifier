@@ -1,6 +1,6 @@
 # Resume-RAG-Classifier
 
-This is a simple Python-based tool that assists job applicants in selecting the most appropriate version of their resume—**Business** or **Technical**—based on the content of a job description. By analyzing the semantic similarity between the job description and each resume type, the program recommends the better-fitting resume for submission.
+This is a simple Python-based tool that assists job applicants in selecting the most appropriate version of their resume (i.e., Business or Technical) based on the content of a job description. By analyzing the semantic similarity between the job description and each resume type, the program recommends the better-fitting resume for submission.
 
 Intended for use by Business/Data Analytics folks who might apply to a variety of roles that can skew either business or technical. Based on the job description, they will want to submit tailored resumes that highlight their strengths for that specific role and domain.
 
@@ -40,5 +40,5 @@ pip install openai PyPDF2 numpy
 Run the script and paste in the job description when prompted:
 
 ```
-python resume_classifier.py
+python resume_rag_classifier.py
 ```
