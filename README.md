@@ -15,6 +15,7 @@ Intended for use by Business/Data Analytics folks who might apply to a variety o
 
 - Python 3.8+
 - `openai` Python SDK (v1.0.0+)
+- `PyPDF2` and `numpy`
 - API key from OpenAI (with `gpt-4` or `gpt-3.5-turbo` access)
 
 ## Installation
@@ -23,3 +24,20 @@ Intended for use by Business/Data Analytics folks who might apply to a variety o
    ```bash
    git clone https://github.com/yourusername/resume-classifier.git
    cd resume-classifier
+
+2. Install dependencies:
+```bash
+pip install openai PyPDF2 numpy
+```
+
+3. Save your OpenAI API key in a file named openai_key.txt.
+
+4. Update file paths inside the script to point to your own PDF resumes.
+
+## Usage
+
+Run the script and paste in the job description when prompted:
+
+```
+python resume_classifier.py
+```
