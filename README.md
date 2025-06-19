@@ -21,9 +21,10 @@ Intended for use by Business/Data Analytics folks who might apply to a variety o
 ## Installation
 
 1. Clone the repository or download the script:
-   ```bash
-   git clone https://github.com/yourusername/resume-classifier.git
-   cd resume-classifier
+```bash
+git clone https://github.com/yourusername/resume-classifier.git
+cd resume-classifier
+```
 
 2. Install dependencies:
 ```bash
